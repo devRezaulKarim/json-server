@@ -119,121 +119,280 @@
   ],
 
   "hotels": [
+  {
+	"id": 1,
+    "hotelName": "Luxury Suites",
+    "location": "Dhaka",
+    "pricePerNight": 200,
+    "availableRooms": 10,
+    "amenities": ["Free Wi-Fi", "Swimming Pool", "Gym"],
+    "rating": 4.5,
+    "description": "Experience opulence at its finest in the heart of the city. Luxury Suites offers modern accommodations with state-of-the-art facilities and breathtaking views of the urban landscape.",
+    "imageURL": "https://example.com/luxury-suites-image.jpg"
+  },
+  {
+	"id": 2,
+    "hotelName": "Cozy Inn",
+    "location": "Khulna",
+    "pricePerNight": 150,
+    "availableRooms": 5,
+    "amenities": ["Breakfast Included", "Parking"],
+    "rating": 3.8,
+    "description": "Escape the hustle and bustle at Cozy Inn, nestled in a peaceful suburban setting. Enjoy a relaxing stay with complimentary breakfast and convenient parking.",
+    "imageURL": "https://example.com/cozy-inn-image.jpg"
+  },
+  {
+  	"id": 3,
+    "hotelName": "Seaside Resort",
+    "location": "Cox's Bazar",
+    "pricePerNight": 250,
+    "availableRooms": 8,
+    "amenities": ["Private Beach Access", "Spa", "Restaurant"],
+    "rating": 4.7,
+    "description": "Immerse yourself in luxury at Seaside Resort. Located on the pristine beachfront, this resort offers exclusive amenities, a rejuvenating spa, and delectable dining experiences.",
+    "imageURL": "https://example.com/seaside-resort-image.jpg"
+  },
+  {
+  	"id": 4,
+    "hotelName": "Mountain Retreat Lodge",
+    "location": "Khagrachari",
+    "pricePerNight": 180,
+    "availableRooms": 12,
+    "amenities": ["Scenic Views", "Hiking Trails", "Fireplace"],
+    "rating": 4.2,
+    "description": "Discover serenity at Mountain Retreat Lodge. Nestled in the midst of majestic mountains, our lodge offers stunning views, invigorating hiking trails, and cozy fireplaces.",
+    "imageURL": "https://example.com/mountain-retreat-lodge-image.jpg"
+  },
+  {
+  	"id": 5,
+    "hotelName": "Urban Boutique Hotel",
+    "location": "Barishal",
+    "pricePerNight": 220,
+    "availableRooms": 6,
+    "amenities": ["Art Gallery", "Rooftop Bar", "Fitness Center"],
+    "rating": 4.8,
+    "description": "Immerse yourself in the vibrant arts scene at Urban Boutique Hotel. Located in the heart of the downtown arts district, our hotel combines luxury with artistic flair.",
+    "imageURL": "https://example.com/urban-boutique-hotel-image.jpg"
+  },
+  {
+  	"id": 6,
+    "hotelName": "Historic Manor House",
+    "location": "Dhaka",
+    "pricePerNight": 190,
+    "availableRooms": 9,
+    "amenities": ["Gardens", "Antique Furnishings", "High Tea"],
+    "rating": 4.4,
+    "description": "Step back in time at the Historic Manor House. Surrounded by lush gardens, our charming manor offers a unique blend of history, elegance, and traditional high tea.",
+    "imageURL": "https://example.com/historic-manor-house-image.jpg"
+  },
+  {
+  	"id": 7,
+    "hotelName": "Skyline Tower Hotel",
+    "location": "Sylhet",
+    "pricePerNight": 280,
+    "availableRooms": 7,
+    "amenities": ["Panoramic Views", "Fine Dining", "Sky Lounge"],
+    "rating": 4.9,
+    "description": "Experience luxury in the clouds at Skyline Tower Hotel. Our high-rise establishment offers breathtaking panoramic views, fine dining, and an exclusive sky lounge.",
+    "imageURL": "https://example.com/skyline-tower-hotel-image.jpg"
+  },
+  {
+  	"id": 8,
+    "hotelName": "Garden Oasis Resort",
+    "location": "Sylhet",
+    "pricePerNight": 300,
+    "availableRooms": 5,
+    "amenities": ["Tropical Gardens", "Swimming Lagoons", "Spa Retreat"],
+    "rating": 4.6,
+    "description": "Escape to paradise at Garden Oasis Resort. Surrounded by lush tropical gardens, our resort features serene swimming lagoons and a rejuvenating spa retreat.",
+    "imageURL": "https://example.com/garden-oasis-resort-image.jpg"
+  },
+  {
+  	"id": 9,
+    "hotelName": "Riverside Retreat Inn",
+    "location": "Kuakata",
+    "pricePerNight": 170,
+    "availableRooms": 11,
+    "amenities": ["Riverside Views", "Canoe Rentals", "Riverside Dining"],
+    "rating": 4.3,
+    "description": "Enjoy nature at Riverside Retreat Inn. Situated on the riverbank, our inn offers scenic riverside views, canoe rentals, and delightful riverside dining experiences.",
+    "imageURL": "https://example.com/riverside-retreat-inn-image.jpg"
+  },
     {
-      "id": 1,
-      "title": "Google Internship Program",
-      "logo": "https://pngimg.com/uploads/google/google_PNG19625.png",
-      "companyName": "Google",
-      "position": "Intern Developer",
-      "description": "This is an internship opportunity from Google",
-      "website": "google.com",
-      "location": "san francisco, ca",
-      "salary": "$1000",
-      "deadLine": "2024-01-10"
-    },
+		"id": 10,
+    "hotelName": "Alpine Chalet Resort",
+    "location": "Chattogram",
+    "pricePerNight": 260,
+    "availableRooms": 8,
+    "amenities": ["Ski-in/Ski-out", "Alpine Spa", "Chalet Dining"],
+    "rating": 4.7,
+    "description": "Embrace the winter wonderland at Alpine Chalet Resort. Located in the Alpine Mountains, our resort offers ski-in/ski-out access, an alpine spa, and cozy chalet dining.",
+    "imageURL": "https://example.com/alpine-chalet-resort-image.jpg"
+  },
+  {
+  	"id": 11,
+    "hotelName": "Tech Hub Hotel",
+    "location": "Dhaka",
+    "pricePerNight": 180,
+    "availableRooms": 15,
+    "amenities": ["Tech Lounge", "Conference Rooms", "High-Speed Internet"],
+    "rating": 4.5,
+    "description": "Stay connected at Tech Hub Hotel in the heart of Silicon Valley. Our hotel features a tech lounge, conference rooms, and high-speed internet for the modern traveler.",
+    "imageURL": "https://example.com/tech-hub-hotel-image.jpg"
+  },
+   {
+   	"id": 12,
+    "hotelName": "Grand Plaza Hotel",
+    "location": "Chattogram",
+    "pricePerNight": 300,
+    "availableRooms": 5,
+    "amenities": ["City Views", "Executive Lounge", "Fine Dining"],
+    "rating": 4.9,
+    "description": "Experience luxury living at the Grand Plaza Hotel in the heart of the metropolitan area. Enjoy stunning city views, exclusive access to the executive lounge, and fine dining.",
+    "imageURL": "https://example.com/grand-plaza-hotel-image.jpg"
+  },
+  {
+  	"id": 13,
+    "hotelName": "Safari Lodge",
+    "location": "Gazipur",
+    "pricePerNight": 350,
+    "availableRooms": 6,
+    "amenities": ["Safari Tours", "Wildlife Viewing", "Lodge Dining"],
+    "rating": 4.6,
+    "description": "Embark on a wild adventure at Safari Lodge in the heart of a wildlife reserve. Join thrilling safari tours, experience wildlife viewing, and savor lodge dining.",
+    "imageURL": "https://example.com/safari-lodge-image.jpg"
+  },
+  {
+  	"id": 14,
+    "hotelName": "Harborfront Haven",
+    "location": "Khulna",
+    "pricePerNight": 230,
+    "availableRooms": 12,
+    "amenities": ["Harbor Views", "Marina Access", "Seafood Restaurant"],
+    "rating": 4.7,
+    "description": "Escape to tranquility at Harborfront Haven in the Harbor District. Enjoy breathtaking harbor views, convenient marina access, and delectable seafood at our restaurant.",
+    "imageURL": "https://example.com/harborfront-haven-image.jpg"
+  },
+   {
+   	"id": 15,
+    "hotelName": "Artisan Loft Hotel",
+    "location": "Barishal",
+    "pricePerNight": 180,
+    "availableRooms": 9,
+    "amenities": ["Art Studios", "Gallery Exhibitions", "Rooftop Terrace"],
+    "rating": 4.4,
+    "description": "Immerse yourself in creativity at Artisan Loft Hotel in the vibrant Arts District. Discover art studios, gallery exhibitions, and unwind on the rooftop terrace.",
+    "imageURL": "https://example.com/artisan-loft-hotel-image.jpg"
+  },
+  {
+  	"id": 16,
+    "hotelName": "Eco Retreat Lodge",
+    "location": "Khulna",
+    "pricePerNight": 210,
+    "availableRooms": 8,
+    "amenities": ["Nature Trails", "Sustainable Practices", "Organic Dining"],
+    "rating": 4.5,
+    "description": "Reconnect with nature at Eco Retreat Lodge in a serene nature preserve. Explore nature trails, experience sustainable practices, and indulge in organic dining.",
+    "imageURL": "https://example.com/eco-retreat-lodge-image.jpg"
+  },
+  {
+  	"id": 17,
+    "hotelName": "Skyview Penthouse",
+    "location": "Chattogram",
+    "pricePerNight": 400,
+    "availableRooms": 3,
+    "amenities": ["Private Elevator", "Skyview Lounge", "Personal Concierge"],
+    "rating": 5.0,
+    "description": "Ascend to new heights at Skyview Penthouse in the Skyscraper District. With a private elevator, exclusive skyview lounge, and a personal concierge, experience unparalleled luxury.",
+    "imageURL": "https://example.com/skyview-penthouse-image.jpg"
+  },
+   {
+   	"id": 18,
+    "hotelName": "Tranquil Hideaway",
+    "location": "Khagrachari",
+    "pricePerNight": 180,
+    "availableRooms": 10,
+    "amenities": ["Scenic Views", "Nature Walks", "Outdoor Spa"],
+    "rating": 4.6,
+    "description": "Discover serenity at Tranquil Hideaway nestled in a mountain retreat. Enjoy scenic views, nature walks, and unwind in our outdoor spa.",
+    "imageURL": "https://example.com/tranquil-hideaway-image.jpg"
+  },
+  {
+  	"id": 19,
+    "hotelName": "Modern Oasis",
+    "location": "Rajshahi",
+    "pricePerNight": 250,
+    "availableRooms": 7,
+    "amenities": ["Modern Architecture", "Rooftop Pool", "Cityscape Views"],
+    "rating": 4.8,
+    "description": "Indulge in luxury at Modern Oasis in the midst of the city skyline. Admire modern architecture, relax by the rooftop pool, and enjoy breathtaking cityscape views.",
+    "imageURL": "https://example.com/modern-oasis-image.jpg"
+  },
+  {
+  	"id": 20,
+    "hotelName": "Island Paradise Resort",
+    "location": "Saint Martin",
+    "pricePerNight": 300,
+    "availableRooms": 5,
+    "amenities": ["Private Beach", "Water Sports", "Tropical Dining"],
+    "rating": 4.9,
+    "description": "Escape to a tropical paradise at Island Paradise Resort. Experience a private beach, indulge in water sports, and savor tropical dining under the stars.",
+    "imageURL": "https://example.com/island-paradise-resort-image.jpg"
+  },
     {
-      "id": 2,
-      "title": "Meta Junior Development Program",
-      "logo": "https://pngimg.com/uploads/meta/meta_PNG1.png",
-      "companyName": "Meta",
-      "position": "Junior Developer",
-      "description": "This is a junior developer recruitment from Meta",
-      "website": "meta.com",
-      "location": "San Francisco, CA",
-      "salary": "$250",
-      "deadLine": "2024-01-23"
-    },
-    {
-      "id": 3,
-      "title": "Microsoft Senior Development Program",
-      "logo": "https://pngimg.com/uploads/microsoft/microsoft_PNG14.png",
-      "companyName": "Microsoft",
-      "position": "Senior Developer",
-      "description": "This is a junior developer recruitment from Microsoft"
-    },
-    {
-      "id": 4,
-      "title": "Adobe Junior Development Program",
-      "logo": "https://www.svgrepo.com/show/349582/adobe.svg",
-      "companyName": "Adobe",
-      "position": "Junior Developer",
-      "description": "This is a junior developer recruitment from Adobe",
-      "website": "https://adobe.com",
-      "location": "San Jose, Ca",
-      "salary": "$750",
-      "deadLine": "2024-01-15"
-    },
-    {
-      "id": 5,
-      "title": "Amazon Intern Development Program",
-      "logo": "https://pngimg.com/uploads/amazon/amazon_PNG1.png",
-      "companyName": "Amazon",
-      "position": "Intern Developer",
-      "description": "This is a Intern developer recruitment from Amazon"
-    },
-    {
-      "id": 6,
-      "title": "Open AI Senior Development Program",
-      "logo": "https://static-00.iconduck.com/assets.00/openai-icon-2021x2048-4rpe5x7n.png",
-      "companyName": "Open AI",
-      "position": "Senior Developer",
-      "description": "This is a senior developer recruitment from Open AI"
-    },
-    {
-      "id": 7,
-      "title": "X Junior Development Program",
-      "logo": "https://freelogopng.com/images/all_img/1690643591twitter-x-logo-png.png",
-      "companyName": "X",
-      "position": "Junior Developer",
-      "description": "This is a junior developer recruitment from X"
-    },
-    {
-      "id": 8,
-      "title": "Apple Intern Development Program",
-      "logo": "https://pngfre.com/wp-content/uploads/apple-logo-6-1024x1024.png",
-      "companyName": "Apple",
-      "position": "Intern Developer",
-      "description": "This is a intern developer recruitment from Apple"
-    },
-    {
-      "id": 9,
-      "title": "Alibaba Senior Development Program",
-      "logo": "https://companieslogo.com/img/orig/BABA-2884ac04.png",
-      "companyName": "Alibaba",
-      "position": "Senior Developer",
-      "description": "This is a senior developer recruitment from Alibaba"
-    },
-    {
-      "id": 10,
-      "title": "Shopify Junior Development Program",
-      "logo": "https://www.svgrepo.com/show/303503/shopify-logo.svg",
-      "companyName": "Shopify",
-      "position": "Junior Developer",
-      "description": "This is a junior developer recruitment from Shopify"
-    },
-    {
-      "title": "Junior Developer",
-      "logo": "https://inclusiveleadersgroup.com/wp-content/uploads/2023/01/coming-soonb.jpg",
-      "companyName": "google",
-      "position": "Junior ",
-      "description": "Junior DeveloperJunior DeveloperJunior DeveloperJunior DeveloperJunior Developer",
-      "website": "google.com",
-      "location": "san francisco, CA",
-      "salary": "$1000",
-      "deadLine": "15-01-2024",
-      "id": 11
-    },
-    {
-      "description": "Are you a passionate and driven individual eager to kickstart your career in software development? We're looking for a Junior Software Developer to join our dynamic team at Steam. Are you a passionate and driven individual eager to kickstart your career in software development? We're looking for a Junior Software Developer to join our dynamic team at Steam. Are you a passionate and driven individual eager to kickstart your career in software development? We're looking for a Junior Software Developer to join our dynamic team at Steam. ",
-      "title": "Junior Developer",
-      "logo": "https://www.svgrepo.com/show/452107/steam.svg",
-      "companyName": "Steam ",
-      "website": "https://store.steampowered.com",
-      "location": "Bellevue, WA",
-      "position": "Junior ",
-      "salary": "$500",
-      "deadLine": "2024-01-09",
-      "id": 12
-    }
-  ]
+	"id": 21,
+    "hotelName": "Marine Paradise Resort",
+    "location": "Cox's Bazar",
+    "pricePerNight": 280,
+    "availableRooms": 15,
+    "amenities": ["Direct Beach Access", "Swimming Pool", "Beachfront Dining"],
+    "rating": 4.8,
+    "description": "Experience luxury at Marine Paradise Resort in Cox's Bazar. Enjoy direct beach access, a refreshing swimming pool, and delightful beachfront dining.",
+    "imageURL": "https://example.com/marine-paradise-resort-image.jpg"
+  },
+  {
+  	"id": 22,
+    "hotelName": "Golden Sands Retreat",
+    "location": "Kuakata",
+    "pricePerNight": 200,
+    "availableRooms": 10,
+    "amenities": ["Private Beachfront Cabins", "Beachside Bar", "Water Sports"],
+    "rating": 4.6,
+    "description": "Discover tranquility at Golden Sands Retreat in Kuakata. Stay in private beachfront cabins, unwind at the beachside bar, and enjoy exciting water sports.",
+    "imageURL": "https://example.com/golden-sands-retreat-image.jpg"
+  },
+   {
+    "id": 23,
+    "hotelName": "Sajek Serenity Resort",
+    "location": "Sajek Valley",
+    "pricePerNight": 220,
+    "availableRooms": 10,
+    "amenities": ["Mountain Views", "Cultural Experiences", "Hiking Trails"],
+    "rating": 4.8,
+    "description": "Experience the tranquility of Sajek Valley at Sajek Serenity Resort. Enjoy breathtaking mountain views, immerse yourself in cultural experiences, and explore the surrounding hiking trails.",
+    "imageURL": "https://example.com/sajek-serenity-resort-image.jpg"
+  },
+  {
+    "id": 24,
+    "hotelName": "Cloud Nine Retreat",
+    "location": "Sajek Valley",
+    "pricePerNight": 190,
+    "availableRooms": 8,
+    "amenities": ["Cloud Dining", "Stargazing Deck", "Community Fireplace"],
+    "rating": 4.6,
+    "description": "Reach for the clouds at Cloud Nine Retreat in Sajek Valley. Indulge in cloud dining, stargaze from the deck, and gather around the community fireplace for a cozy evening.",
+    "imageURL": "https://example.com/cloud-nine-retreat-image.jpg"
+  },
+  {
+    "id": 25,
+    "hotelName": "Valley Vista Lodge",
+    "location": "Sajek Valley",
+    "pricePerNight": 250,
+    "availableRooms": 12,
+    "amenities": ["Valley Views", "Spa Retreat", "Outdoor Yoga"],
+    "rating": 4.9,
+    "description": "Immerse yourself in nature at Valley Vista Lodge in Sajek Valley. Wake up to stunning valley views, rejuvenate at the spa retreat, and unwind with outdoor yoga sessions.",
+    "imageURL": "https://example.com/valley-vista-lodge-image.jpg"
+  },
+]
 }
