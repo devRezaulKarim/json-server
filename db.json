@@ -119,279 +119,403 @@
   ],
 
   "hotels": [
-  {
-	"id": 1,
-    "hotelName": "Luxury Suites",
-    "location": "Dhaka",
-    "pricePerNight": 200,
-    "availableRooms": 10,
-    "amenities": ["Free Wi-Fi", "Swimming Pool", "Gym"],
-    "rating": 4.5,
-    "description": "Experience opulence at its finest in the heart of the city. Luxury Suites offers modern accommodations with state-of-the-art facilities and breathtaking views of the urban landscape.",
-    "imageURL": "https://www.redrockresort.com/wp-content/uploads/2020/04/RR-Luxury-Livingroom-scaled.jpg"
-  },
-  {
-	"id": 2,
-    "hotelName": "Cozy Inn",
-    "location": "Khulna",
-    "pricePerNight": 150,
-    "availableRooms": 5,
-    "amenities": ["Breakfast Included", "Parking"],
-    "rating": 3.8,
-    "description": "Escape the hustle and bustle at Cozy Inn, nestled in a peaceful suburban setting. Enjoy a relaxing stay with complimentary breakfast and convenient parking.",
-    "imageURL": "https://cozy-inn.chiangmaihotelspage.com/data/Pics/OriginalPhoto/4621/462136/462136113/pic-cozy-inn-chiang-mai-2.JPEG"
-  },
-  {
-  	"id": 3,
-    "hotelName": "Seaside Resort",
-    "location": "Cox's Bazar",
-    "pricePerNight": 250,
-    "availableRooms": 8,
-    "amenities": ["Private Beach Access", "Spa", "Restaurant"],
-    "rating": 4.7,
-    "description": "Immerse yourself in luxury at Seaside Resort. Located on the pristine beachfront, this resort offers exclusive amenities, a rejuvenating spa, and delectable dining experiences.",
-    "imageURL": "https://www.jet2holidays.com/HotelImages/Web/HER_84014_Senseana_Sea_Side_Resort_&_Spa_0823_24.jpg"
-  },
-  {
-  	"id": 4,
-    "hotelName": "Mountain Retreat Lodge",
-    "location": "Khagrachari",
-    "pricePerNight": 180,
-    "availableRooms": 12,
-    "amenities": ["Scenic Views", "Hiking Trails", "Fireplace"],
-    "rating": 4.2,
-    "description": "Discover serenity at Mountain Retreat Lodge. Nestled in the midst of majestic mountains, our lodge offers stunning views, invigorating hiking trails, and cozy fireplaces.",
-    "imageURL": "https://www.coconutclubvacations.org/wp-content/uploads/Cretonne-Mountain-Retreat-Center-.jpg"
-  },
-  {
-  	"id": 5,
-    "hotelName": "Urban Boutique Hotel",
-    "location": "Barishal",
-    "pricePerNight": 220,
-    "availableRooms": 6,
-    "amenities": ["Art Gallery", "Rooftop Bar", "Fitness Center"],
-    "rating": 4.8,
-    "description": "Immerse yourself in the vibrant arts scene at Urban Boutique Hotel. Located in the heart of the downtown arts district, our hotel combines luxury with artistic flair.",
-    "imageURL": "https://img.freepik.com/free-photo/white-nature-hotel-travel-beautiful_1203-4841.jpg"
-  },
-  {
-  	"id": 6,
-    "hotelName": "Historic Manor House",
-    "location": "Dhaka",
-    "pricePerNight": 190,
-    "availableRooms": 9,
-    "amenities": ["Gardens", "Antique Furnishings", "High Tea"],
-    "rating": 4.4,
-    "description": "Step back in time at the Historic Manor House. Surrounded by lush gardens, our charming manor offers a unique blend of history, elegance, and traditional high tea.",
-    "imageURL": "https://img.freepik.com/free-photo/beautiful-shot-big-farmhouse-clear-blue-sky_181624-15996.jpg"
-  },
-  {
-  	"id": 7,
-    "hotelName": "Skyline Tower Hotel",
-    "location": "Sylhet",
-    "pricePerNight": 280,
-    "availableRooms": 7,
-    "amenities": ["Panoramic Views", "Fine Dining", "Sky Lounge"],
-    "rating": 4.9,
-    "description": "Experience luxury in the clouds at Skyline Tower Hotel. Our high-rise establishment offers breathtaking panoramic views, fine dining, and an exclusive sky lounge.",
-    "imageURL": "https://img.freepik.com/free-photo/orlando-downtown-dusk_649448-4690.jpg"
-  },
-  {
-  	"id": 8,
-    "hotelName": "Garden Oasis Resort",
-    "location": "Sylhet",
-    "pricePerNight": 300,
-    "availableRooms": 5,
-    "amenities": ["Tropical Gardens", "Swimming Lagoons", "Spa Retreat"],
-    "rating": 4.6,
-    "description": "Escape to paradise at Garden Oasis Resort. Surrounded by lush tropical gardens, our resort features serene swimming lagoons and a rejuvenating spa retreat.",
-    "imageURL": "https://img.freepik.com/free-photo/umbrella-pool-chair_74190-1611.jpg"
-  },
-  {
-  	"id": 9,
-    "hotelName": "Riverside Retreat Inn",
-    "location": "Kuakata",
-    "pricePerNight": 170,
-    "availableRooms": 11,
-    "amenities": ["Riverside Views", "Canoe Rentals", "Riverside Dining"],
-    "rating": 4.3,
-    "description": "Enjoy nature at Riverside Retreat Inn. Situated on the riverbank, our inn offers scenic riverside views, canoe rentals, and delightful riverside dining experiences.",
-    "imageURL": "https://img.freepik.com/free-photo/outdoor-balcony_1203-2567.jpg"
-  },
+   {
+        "id": 1,
+        "hotelName": "Luxury Suites",
+        "title": "Opulent Urban Retreat",
+        "location": "Dhaka",
+        "pricePerNight": 200,
+        "availableRooms": 10,
+        "amenities": [
+            "Free Wi-Fi",
+            "Swimming Pool",
+            "Gym"
+        ],
+        "rating": 4.5,
+        "description": "Experience opulence at its finest in the heart of the city. Luxury Suites offers modern accommodations with state-of-the-art facilities and breathtaking views of the urban landscape.",
+        "imageURL": "https://www.redrockresort.com/wp-content/uploads/2020/04/RR-Luxury-Livingroom-scaled.jpg"
+    },
     {
-		"id": 10,
-    "hotelName": "Alpine Chalet Resort",
-    "location": "Chattogram",
-    "pricePerNight": 260,
-    "availableRooms": 8,
-    "amenities": ["Ski-in/Ski-out", "Alpine Spa", "Chalet Dining"],
-    "rating": 4.7,
-    "description": "Embrace the winter wonderland at Alpine Chalet Resort. Located in the Alpine Mountains, our resort offers ski-in/ski-out access, an alpine spa, and cozy chalet dining.",
-    "imageURL": "https://img.freepik.com/free-photo/winter-vacation-holiday-wooden-house-mountains-covered-with-snow-blue-sky-skis-front-house_639032-857.jpg"
-  },
-  {
-  	"id": 11,
-    "hotelName": "Tech Hub Hotel",
-    "location": "Dhaka",
-    "pricePerNight": 180,
-    "availableRooms": 15,
-    "amenities": ["Tech Lounge", "Conference Rooms", "High-Speed Internet"],
-    "rating": 4.5,
-    "description": "Stay connected at Tech Hub Hotel in the heart of Silicon Valley. Our hotel features a tech lounge, conference rooms, and high-speed internet for the modern traveler.",
-    "imageURL": "https://img.freepik.com/free-photo/futuristic-house-design-outdoor-ai-generative_123827-23801.jpg"
-  },
-   {
-   	"id": 12,
-    "hotelName": "Grand Plaza Hotel",
-    "location": "Chattogram",
-    "pricePerNight": 300,
-    "availableRooms": 5,
-    "amenities": ["City Views", "Executive Lounge", "Fine Dining"],
-    "rating": 4.9,
-    "description": "Experience luxury living at the Grand Plaza Hotel in the heart of the metropolitan area. Enjoy stunning city views, exclusive access to the executive lounge, and fine dining.",
-    "imageURL": "https://img.freepik.com/free-photo/type-entertainment-complex-popular-resort-with-pools-water-parks-turkey-luxury-hotel-resort_146671-18827.jpg"
-  },
-  {
-  	"id": 13,
-    "hotelName": "Safari Lodge",
-    "location": "Gazipur",
-    "pricePerNight": 350,
-    "availableRooms": 6,
-    "amenities": ["Safari Tours", "Wildlife Viewing", "Lodge Dining"],
-    "rating": 4.6,
-    "description": "Embark on a wild adventure at Safari Lodge in the heart of a wildlife reserve. Join thrilling safari tours, experience wildlife viewing, and savor lodge dining.",
-    "imageURL": "https://img.freepik.com/free-photo/beautiful-view-villa-blue-sky-white-sand-background-gili-trawangan_158538-26130.jpg"
-  },
-  {
-  	"id": 14,
-    "hotelName": "Harborfront Haven",
-    "location": "Khulna",
-    "pricePerNight": 230,
-    "availableRooms": 12,
-    "amenities": ["Harbor Views", "Marina Access", "Seafood Restaurant"],
-    "rating": 4.7,
-    "description": "Escape to tranquility at Harborfront Haven in the Harbor District. Enjoy breathtaking harbor views, convenient marina access, and delectable seafood at our restaurant.",
-    "imageURL": "https://img.freepik.com/free-photo/wooden-arbors-among-trees-mountains_140725-3026.jpg"
-  },
-   {
-   	"id": 15,
-    "hotelName": "Artisan Loft Hotel",
-    "location": "Barishal",
-    "pricePerNight": 180,
-    "availableRooms": 9,
-    "amenities": ["Art Studios", "Gallery Exhibitions", "Rooftop Terrace"],
-    "rating": 4.4,
-    "description": "Immerse yourself in creativity at Artisan Loft Hotel in the vibrant Arts District. Discover art studios, gallery exhibitions, and unwind on the rooftop terrace.",
-    "imageURL": "https://img.freepik.com/free-photo/chair-sits-cabinstyle-bedroom_157027-4296.jpg"
-  },
-  {
-  	"id": 16,
-    "hotelName": "Eco Retreat Lodge",
-    "location": "Khulna",
-    "pricePerNight": 210,
-    "availableRooms": 8,
-    "amenities": ["Nature Trails", "Sustainable Practices", "Organic Dining"],
-    "rating": 4.5,
-    "description": "Reconnect with nature at Eco Retreat Lodge in a serene nature preserve. Explore nature trails, experience sustainable practices, and indulge in organic dining.",
-    "imageURL": "https://img.freepik.com/free-photo/house-thailand-style_1388-800.jpg"
-  },
-  {
-  	"id": 17,
-    "hotelName": "Skyview Penthouse",
-    "location": "Chattogram",
-    "pricePerNight": 400,
-    "availableRooms": 3,
-    "amenities": ["Private Elevator", "Skyview Lounge", "Personal Concierge"],
-    "rating": 5.0,
-    "description": "Ascend to new heights at Skyview Penthouse in the Skyscraper District. With a private elevator, exclusive skyview lounge, and a personal concierge, experience unparalleled luxury.",
-    "imageURL": "https://img.freepik.com/free-photo/hammocks-near-pool_1203-693.jpg"
-  },
-   {
-   	"id": 18,
-    "hotelName": "Tranquil Hideaway",
-    "location": "Khagrachari",
-    "pricePerNight": 180,
-    "availableRooms": 10,
-    "amenities": ["Scenic Views", "Nature Walks", "Outdoor Spa"],
-    "rating": 4.6,
-    "description": "Discover serenity at Tranquil Hideaway nestled in a mountain retreat. Enjoy scenic views, nature walks, and unwind in our outdoor spa.",
-    "imageURL": "https://img.freepik.com/free-photo/house-water-with-grassy-shore-trees_181624-4623.jpg"
-  },
-  {
-  	"id": 19,
-    "hotelName": "Modern Oasis",
-    "location": "Rajshahi",
-    "pricePerNight": 250,
-    "availableRooms": 7,
-    "amenities": ["Modern Architecture", "Rooftop Pool", "Cityscape Views"],
-    "rating": 4.8,
-    "description": "Indulge in luxury at Modern Oasis in the midst of the city skyline. Admire modern architecture, relax by the rooftop pool, and enjoy breathtaking cityscape views.",
-    "imageURL": "https://img.freepik.com/free-photo/umbrella-chair_74190-1676.jpg"
-  },
-  {
-  	"id": 20,
-    "hotelName": "Island Paradise Resort",
-    "location": "Saint Martin",
-    "pricePerNight": 300,
-    "availableRooms": 5,
-    "amenities": ["Private Beach", "Water Sports", "Tropical Dining"],
-    "rating": 4.9,
-    "description": "Escape to a tropical paradise at Island Paradise Resort. Experience a private beach, indulge in water sports, and savor tropical dining under the stars.",
-    "imageURL": "https://img.freepik.com/free-photo/beautiful-water-villas-tropical-maldives-island-sunrise-time_1232-4482.jpg"
-  },
+        "id": 2,
+        "hotelName": "Cozy Inn",
+        "title": "Tranquil Suburban Haven",
+        "location": "Khulna",
+        "pricePerNight": 150,
+        "availableRooms": 5,
+        "amenities": [
+            "Breakfast Included",
+            "Parking"
+        ],
+        "rating": 3.8,
+        "description": "Escape the hustle and bustle at Cozy Inn, nestled in a peaceful suburban setting. Enjoy a relaxing stay with complimentary breakfast and convenient parking.",
+        "imageURL": "https://cozy-inn.chiangmaihotelspage.com/data/Pics/OriginalPhoto/4621/462136/462136113/pic-cozy-inn-chiang-mai-2.JPEG"
+    },
     {
-	"id": 21,
-    "hotelName": "Marine Paradise Resort",
-    "location": "Cox's Bazar",
-    "pricePerNight": 280,
-    "availableRooms": 15,
-    "amenities": ["Direct Beach Access", "Swimming Pool", "Beachfront Dining"],
-    "rating": 4.8,
-    "description": "Experience luxury at Marine Paradise Resort in Cox's Bazar. Enjoy direct beach access, a refreshing swimming pool, and delightful beachfront dining.",
-    "imageURL": "https://img.freepik.com/free-photo/beach-white-landscape-security-orange_1203-5313.jpg"
-  },
-  {
-  	"id": 22,
-    "hotelName": "Golden Sands Retreat",
-    "location": "Kuakata",
-    "pricePerNight": 200,
-    "availableRooms": 10,
-    "amenities": ["Private Beachfront Cabins", "Beachside Bar", "Water Sports"],
-    "rating": 4.6,
-    "description": "Discover tranquility at Golden Sands Retreat in Kuakata. Stay in private beachfront cabins, unwind at the beachside bar, and enjoy exciting water sports.",
-    "imageURL": "https://img.freepik.com/free-photo/umbrella-chair-with-pillow-around-beautiful-landscape-beach-sea_74190-8176.jpg"
-  },
-   {
-    "id": 23,
-    "hotelName": "Sajek Serenity Resort",
-    "location": "Sajek Valley",
-    "pricePerNight": 220,
-    "availableRooms": 10,
-    "amenities": ["Mountain Views", "Cultural Experiences", "Hiking Trails"],
-    "rating": 4.8,
-    "description": "Experience the tranquility of Sajek Valley at Sajek Serenity Resort. Enjoy breathtaking mountain views, immerse yourself in cultural experiences, and explore the surrounding hiking trails.",
-    "imageURL": "https://img.freepik.com/free-photo/landscape-swiss-village-mountains-background_8353-9524.jpg"
-  },
-  {
-    "id": 24,
-    "hotelName": "Cloud Nine Retreat",
-    "location": "Sajek Valley",
-    "pricePerNight": 190,
-    "availableRooms": 8,
-    "amenities": ["Cloud Dining", "Stargazing Deck", "Community Fireplace"],
-    "rating": 4.6,
-    "description": "Reach for the clouds at Cloud Nine Retreat in Sajek Valley. Indulge in cloud dining, stargaze from the deck, and gather around the community fireplace for a cozy evening.",
-    "imageURL": "https://shorturl.at/hjuw4"
-  },
-  {
-    "id": 25,
-    "hotelName": "Valley Vista Lodge",
-    "location": "Sajek Valley",
-    "pricePerNight": 250,
-    "availableRooms": 12,
-    "amenities": ["Valley Views", "Spa Retreat", "Outdoor Yoga"],
-    "rating": 4.9,
-    "description": "Immerse yourself in nature at Valley Vista Lodge in Sajek Valley. Wake up to stunning valley views, rejuvenate at the spa retreat, and unwind with outdoor yoga sessions.",
-    "imageURL": "https://img.freepik.com/free-photo/beautiful-spring-mountains-switzerland_8353-9528.jpg"
-  }
+        "id": 3,
+        "hotelName": "Seaside Resort",
+        "title": "Exquisite Beachfront Getaway",
+        "location": "Cox's Bazar",
+        "pricePerNight": 250,
+        "availableRooms": 8,
+        "amenities": [
+            "Private Beach Access",
+            "Spa",
+            "Restaurant"
+        ],
+        "rating": 4.7,
+        "description": "Immerse yourself in luxury at Seaside Resort. Located on the pristine beachfront, this resort offers exclusive amenities, a rejuvenating spa, and delectable dining experiences.",
+        "imageURL": "https://www.jet2holidays.com/HotelImages/Web/HER_84014_Senseana_Sea_Side_Resort_&_Spa_0823_24.jpg"
+    },
+    {
+        "id": 4,
+        "hotelName": "Mountain Retreat Lodge",
+        "title": "Serene Mountain Escape",
+        "location": "Khagrachari",
+        "pricePerNight": 180,
+        "availableRooms": 12,
+        "amenities": [
+            "Scenic Views",
+            "Hiking Trails",
+            "Fireplace"
+        ],
+        "rating": 4.2,
+        "description": "Discover serenity at Mountain Retreat Lodge. Nestled in the midst of majestic mountains, our lodge offers stunning views, invigorating hiking trails, and cozy fireplaces.",
+        "imageURL": "https://www.coconutclubvacations.org/wp-content/uploads/Cretonne-Mountain-Retreat-Center-.jpg"
+    },
+    {
+        "id": 5,
+        "hotelName": "Urban Boutique Hotel",
+        "title": "Artistic Hub in the City",
+        "location": "Barishal",
+        "pricePerNight": 220,
+        "availableRooms": 6,
+        "amenities": [
+            "Art Gallery",
+            "Rooftop Bar",
+            "Fitness Center"
+        ],
+        "rating": 4.8,
+        "description": "Immerse yourself in the vibrant arts scene at Urban Boutique Hotel. Located in the heart of the downtown arts district, our hotel combines luxury with artistic flair.",
+        "imageURL": "https://img.freepik.com/free-photo/white-nature-hotel-travel-beautiful_1203-4841.jpg"
+    },
+    {
+        "id": 6,
+        "hotelName": "Historic Manor House",
+        "title": "Charming Garden Retreat",
+        "location": "Dhaka",
+        "pricePerNight": 190,
+        "availableRooms": 9,
+        "amenities": [
+            "Gardens",
+            "Antique Furnishings",
+            "High Tea"
+        ],
+        "rating": 4.4,
+        "description": "Step back in time at the Historic Manor House. Surrounded by lush gardens, our charming manor offers a unique blend of history, elegance, and traditional high tea.",
+        "imageURL": "https://img.freepik.com/free-photo/beautiful-shot-big-farmhouse-clear-blue-sky_181624-15996.jpg"
+    },
+    {
+        "id": 7,
+        "hotelName": "Skyline Tower Hotel",
+        "title": "Elevated Luxury Experience",
+        "location": "Sylhet",
+        "pricePerNight": 280,
+        "availableRooms": 7,
+        "amenities": [
+            "Panoramic Views",
+            "Fine Dining",
+            "Sky Lounge"
+        ],
+        "rating": 4.9,
+        "description": "Experience luxury in the clouds at Skyline Tower Hotel. Our high-rise establishment offers breathtaking panoramic views, fine dining, and an exclusive sky lounge.",
+        "imageURL": "https://img.freepik.com/free-photo/orlando-downtown-dusk_649448-4690.jpg"
+    },
+	  {
+        "id": 8,
+        "hotelName": "Garden Oasis Resort",
+        "title": "Tropical Paradise Retreat",
+        "location": "Sylhet",
+        "pricePerNight": 300,
+        "availableRooms": 5,
+        "amenities": [
+            "Tropical Gardens",
+            "Swimming Lagoons",
+            "Spa Retreat"
+        ],
+        "rating": 4.6,
+        "description": "Escape to paradise at Garden Oasis Resort. Surrounded by lush tropical gardens, our resort features serene swimming lagoons and a rejuvenating spa retreat.",
+        "imageURL": "https://img.freepik.com/free-photo/umbrella-pool-chair_74190-1611.jpg"
+    },
+    {
+        "id": 9,
+        "hotelName": "Riverside Retreat Inn",
+        "title": "Idyllic Riverside Haven",
+        "location": "Kuakata",
+        "pricePerNight": 170,
+        "availableRooms": 11,
+        "amenities": [
+            "Riverside Views",
+            "Canoe Rentals",
+            "Riverside Dining"
+        ],
+        "rating": 4.3,
+        "description": "Enjoy nature at Riverside Retreat Inn. Situated on the riverbank, our inn offers scenic riverside views, canoe rentals, and delightful riverside dining experiences.",
+        "imageURL": "https://img.freepik.com/free-photo/outdoor-balcony_1203-2567.jpg"
+    },
+    {
+        "id": 10,
+        "hotelName": "Alpine Chalet Resort",
+        "title": "Winter Wonderland Retreat",
+        "location": "Chattogram",
+        "pricePerNight": 260,
+        "availableRooms": 8,
+        "amenities": [
+            "Ski-in/Ski-out",
+            "Alpine Spa",
+            "Chalet Dining"
+        ],
+        "rating": 4.7,
+        "description": "Embrace the winter wonderland at Alpine Chalet Resort. Located in the Alpine Mountains, our resort offers ski-in/ski-out access, an alpine spa, and cozy chalet dining.",
+        "imageURL": "https://img.freepik.com/free-photo/winter-vacation-holiday-wooden-house-mountains-covered-with-snow-blue-sky-skis-front-house_639032-857.jpg"
+    },
+    {
+        "id": 11,
+        "hotelName": "Tech Hub Hotel",
+        "title": "Modern Tech Haven",
+        "location": "Dhaka",
+        "pricePerNight": 180,
+        "availableRooms": 15,
+        "amenities": [
+            "Tech Lounge",
+            "Conference Rooms",
+            "High-Speed Internet"
+        ],
+        "rating": 4.5,
+        "description": "Stay connected at Tech Hub Hotel in the heart of Silicon Valley. Our hotel features a tech lounge, conference rooms, and high-speed internet for the modern traveler.",
+        "imageURL": "https://img.freepik.com/free-photo/futuristic-house-design-outdoor-ai-generative_123827-23801.jpg"
+    },
+    {
+        "id": 12,
+        "hotelName": "Grand Plaza Hotel",
+        "title": "Metropolitan Luxury Living",
+        "location": "Chattogram",
+        "pricePerNight": 300,
+        "availableRooms": 5,
+        "amenities": [
+            "City Views",
+            "Executive Lounge",
+            "Fine Dining"
+        ],
+        "rating": 4.9,
+        "description": "Experience luxury living at the Grand Plaza Hotel in the heart of the metropolitan area. Enjoy stunning city views, exclusive access to the executive lounge, and fine dining.",
+        "imageURL": "https://img.freepik.com/free-photo/type-entertainment-complex-popular-resort-with-pools-water-parks-turkey-luxury-hotel-resort_146671-18827.jpg"
+    },
+    {
+        "id": 13,
+        "hotelName": "Safari Lodge",
+        "title": "Wildlife Adventure Retreat",
+        "location": "Gazipur",
+        "pricePerNight": 350,
+        "availableRooms": 6,
+        "amenities": [
+            "Safari Tours",
+            "Wildlife Viewing",
+            "Lodge Dining"
+        ],
+        "rating": 4.6,
+        "description": "Embark on a wild adventure at Safari Lodge in the heart of a wildlife reserve. Join thrilling safari tours, experience wildlife viewing, and savor lodge dining.",
+        "imageURL": "https://img.freepik.com/free-photo/beautiful-view-villa-blue-sky-white-sand-background-gili-trawangan_158538-26130.jpg"
+    },
+    {
+        "id": 14,
+        "hotelName": "Harborfront Haven",
+        "title": "Tranquil Harbor Retreat",
+        "location": "Khulna",
+        "pricePerNight": 230,
+        "availableRooms": 12,
+        "amenities": [
+            "Harbor Views",
+            "Marina Access",
+            "Seafood Restaurant"
+        ],
+        "rating": 4.7,
+        "description": "Escape to tranquility at Harborfront Haven in the Harbor District. Enjoy breathtaking harbor views, convenient marina access, and delectable seafood at our restaurant.",
+        "imageURL": "https://img.freepik.com/free-photo/wooden-arbors-among-trees-mountains_140725-3026.jpg"
+    },
+    {
+        "id": 15,
+        "hotelName": "Artisan Loft Hotel",
+        "title": "Creative Urban Getaway",
+        "location": "Barishal",
+        "pricePerNight": 180,
+        "availableRooms": 9,
+        "amenities": [
+            "Art Studios",
+            "Gallery Exhibitions",
+            "Rooftop Terrace"
+        ],
+        "rating": 4.4,
+        "description": "Immerse yourself in creativity at Artisan Loft Hotel in the vibrant Arts District. Discover art studios, gallery exhibitions, and unwind on the rooftop terrace.",
+        "imageURL": "https://img.freepik.com/free-photo/chair-sits-cabinstyle-bedroom_157027-4296.jpg"
+    },
+    {
+        "id": 16,
+        "hotelName": "Eco Retreat Lodge",
+        "title": "Nature Lover's Sanctuary",
+        "location": "Khulna",
+        "pricePerNight": 210,
+        "availableRooms": 8,
+        "amenities": [
+            "Nature Trails",
+            "Sustainable Practices",
+            "Organic Dining"
+        ],
+        "rating": 4.5,
+        "description": "Reconnect with nature at Eco Retreat Lodge in a serene nature preserve. Explore nature trails, experience sustainable practices, and indulge in organic dining.",
+        "imageURL": "https://img.freepik.com/free-photo/house-thailand-style_1388-800.jpg"
+    },
+	 {
+        "id": 17,
+        "hotelName": "Skyview Penthouse",
+        "title": "Summit of Luxury Living",
+        "location": "Chattogram",
+        "pricePerNight": 400,
+        "availableRooms": 3,
+        "amenities": [
+            "Private Elevator",
+            "Skyview Lounge",
+            "Personal Concierge"
+        ],
+        "rating": 5,
+        "description": "Ascend to new heights at Skyview Penthouse in the Skyscraper District. With a private elevator, exclusive skyview lounge, and a personal concierge, experience unparalleled luxury.",
+        "imageURL": "https://img.freepik.com/free-photo/hammocks-near-pool_1203-693.jpg"
+    },
+    {
+        "id": 18,
+        "hotelName": "Tranquil Hideaway",
+        "title": "Mountain Retreat Serenity",
+        "location": "Khagrachari",
+        "pricePerNight": 180,
+        "availableRooms": 10,
+        "amenities": [
+            "Scenic Views",
+            "Nature Walks",
+            "Outdoor Spa"
+        ],
+        "rating": 4.6,
+        "description": "Discover serenity at Tranquil Hideaway nestled in a mountain retreat. Enjoy scenic views, nature walks, and unwind in our outdoor spa.",
+        "imageURL": "https://img.freepik.com/free-photo/house-water-with-grassy-shore-trees_181624-4623.jpg"
+    },
+    {
+        "id": 19,
+        "hotelName": "Modern Oasis",
+        "title": "Urban Luxury Escape",
+        "location": "Rajshahi",
+        "pricePerNight": 250,
+        "availableRooms": 7,
+        "amenities": [
+            "Modern Architecture",
+            "Rooftop Pool",
+            "Cityscape Views"
+        ],
+        "rating": 4.8,
+        "description": "Indulge in luxury at Modern Oasis in the midst of the city skyline. Admire modern architecture, relax by the rooftop pool, and enjoy breathtaking cityscape views.",
+        "imageURL": "https://img.freepik.com/free-photo/umbrella-chair_74190-1676.jpg"
+    },
+    {
+        "id": 20,
+        "hotelName": "Island Paradise Resort",
+        "title": "Tropical Bliss Getaway",
+        "location": "Saint Martin",
+        "pricePerNight": 300,
+        "availableRooms": 5,
+        "amenities": [
+            "Private Beach",
+            "Water Sports",
+            "Tropical Dining"
+        ],
+        "rating": 4.9,
+        "description": "Escape to a tropical paradise at Island Paradise Resort. Experience a private beach, indulge in water sports, and savor tropical dining under the stars.",
+        "imageURL": "https://img.freepik.com/free-photo/beautiful-water-villas-tropical-maldives-island-sunrise-time_1232-4482.jpg"
+    },
+    {
+        "id": 21,
+        "hotelName": "Marine Paradise Resort",
+        "title": "Coastal Elegance Retreat",
+        "location": "Cox's Bazar",
+        "pricePerNight": 280,
+        "availableRooms": 15,
+        "amenities": [
+            "Direct Beach Access",
+            "Swimming Pool",
+            "Beachfront Dining"
+        ],
+        "rating": 4.8,
+        "description": "Experience luxury at Marine Paradise Resort in Cox's Bazar. Enjoy direct beach access, a refreshing swimming pool, and delightful beachfront dining.",
+        "imageURL": "https://img.freepik.com/free-photo/beach-white-landscape-security-orange_1203-5313.jpg"
+    },
+    {
+        "id": 22,
+        "hotelName": "Golden Sands Retreat",
+        "title": "Seaside Serenity Escape",
+        "location": "Kuakata",
+        "pricePerNight": 200,
+        "availableRooms": 10,
+        "amenities": [
+            "Private Beachfront Cabins",
+            "Beachside Bar",
+            "Water Sports"
+        ],
+        "rating": 4.6,
+        "description": "Discover tranquility at Golden Sands Retreat in Kuakata. Stay in private beachfront cabins, unwind at the beachside bar, and enjoy exciting water sports.",
+        "imageURL": "https://img.freepik.com/free-photo/umbrella-chair-with-pillow-around-beautiful-landscape-beach-sea_74190-8176.jpg"
+    },
+    {
+        "id": 23,
+        "hotelName": "Sajek Serenity Resort",
+        "title": "Mountain Retreat Tranquility",
+        "location": "Sajek Valley",
+        "pricePerNight": 220,
+        "availableRooms": 10,
+        "amenities": [
+            "Mountain Views",
+            "Cultural Experiences",
+            "Hiking Trails"
+        ],
+        "rating": 4.8,
+        "description": "Experience the tranquility of Sajek Valley at Sajek Serenity Resort. Enjoy breathtaking mountain views, immerse yourself in cultural experiences, and explore the surrounding hiking trails.",
+        "imageURL": "https://img.freepik.com/free-photo/landscape-swiss-village-mountains-background_8353-9524.jpg"
+    },
+    {
+        "id": 24,
+        "hotelName": "Cloud Nine Retreat",
+        "title": "Skyward Serenity Escape",
+        "location": "Sajek Valley",
+        "pricePerNight": 190,
+        "availableRooms": 8,
+        "amenities": [
+            "Cloud Dining",
+            "Stargazing Deck",
+            "Community Fireplace"
+        ],
+        "rating": 4.6,
+        "description": "Reach for the clouds at Cloud Nine Retreat in Sajek Valley. Indulge in cloud dining, stargaze from the deck, and gather around the community fireplace for a cozy evening.",
+        "imageURL": "https://shorturl.at/hjuw4"
+    },
+    {
+        "id": 25,
+        "hotelName": "Valley Vista Lodge",
+        "title": "Nature's Valley Sanctuary",
+        "location": "Sajek Valley",
+        "pricePerNight": 250,
+        "availableRooms": 12,
+        "amenities": [
+            "Valley Views",
+            "Spa Retreat",
+            "Outdoor Yoga"
+        ],
+        "rating": 4.9,
+        "description": "Immerse yourself in nature at Valley Vista Lodge in Sajek Valley. Wake up to stunning valley views, rejuvenate at the spa retreat, and unwind with outdoor yoga sessions.",
+        "imageURL": "https://img.freepik.com/free-photo/beautiful-spring-mountains-switzerland_8353-9528.jpg"
+    }  
 ]}
