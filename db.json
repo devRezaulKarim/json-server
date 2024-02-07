@@ -544,6 +544,10 @@
 	"images" : ["https://img.freepik.com/free-photo/luxury-bedroom-suite-resort-high-rise-hotel-with-working-table_105762-1783.jpg","https://img.freepik.com/free-photo/3d-rendering-beautiful-comtemporary-luxury-bedroom-suite-hotel-with-tv_105762-2071.jpg","https://img.freepik.com/free-photo/leisure-beautiful-health-garden-landscape_1203-4856.jpg","https://img.freepik.com/free-photo/swimming-pool_74190-2104.jpg","https://img.freepik.com/free-photo/some-delicious-meal-bed-bedroom-side-view_176474-3911.jpg","https://img.freepik.com/free-photo/stair-around-outdoor-swimming-pool-hotel-resort_74190-9811.jpg","https://img.freepik.com/free-photo/indoor-design-luxury-resort_23-2150497263.jpg","https://img.freepik.com/free-photo/umbrella-chair_74190-1676.jpg","https://img.freepik.com/free-photo/indoor-design-luxury-resort_23-2150497281.jpg","https://img.freepik.com/free-photo/house-landscape-pool-relaxation-garden_1203-4900.jpg"]
     }  
 ],
+
+
+
+
 	
 "products": [
     {
@@ -552,7 +556,8 @@
       "productName": "Chai",
       "quantityPerUnit": "48 - 6 oz jars",
       "unitPrice": "24",
-      "unitsInStock": 53
+      "unitsInStock": 53,
+      "img": "https://i0.wp.com/www.gofresh.com.bd/wp-content/uploads/2020/04/Lipton-pure-and-light.jpg"
     },
     {
       "id": 2,
@@ -560,7 +565,8 @@
       "productName": "Chang",
       "quantityPerUnit": "24 - 12 oz bottles",
       "unitPrice": "21",
-      "unitsInStock": 17
+      "unitsInStock": 17,
+      "img": "https://media.nedigital.sg/fairprice/fpol/media/images/product/XL/10625362_XL1_20230427.jpg"
     },
     {
       "id": 3,
@@ -568,7 +574,8 @@
       "productName": "Laptop",
       "unitPrice": "1000",
       "quantityPerUnit": "1",
-      "unitsInStock": "2"
+      "unitsInStock": "2",
+      "img": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08454623.png"
 
     },
     {
@@ -577,7 +584,8 @@
       "productName": "Chef Anton's Cajun Seasoning",
       "quantityPerUnit": "48 - 6 oz jars",
       "unitPrice": "222",
-      "unitsInStock": 53
+      "unitsInStock": 53,
+      "img": "https://spiceadvice.com/wp-content/uploads/Cajun-Seasoning-Blend-00041351517267.png"
     },
     {
       "id": 5,
@@ -585,7 +593,8 @@
       "productName": "Chef Anton's Gumbo Mix",
       "quantityPerUnit": "36 boxes",
       "unitPrice": "21",
-      "unitsInStock": 0
+      "unitsInStock": 0,
+      "img": "https://m.media-amazon.com/images/I/8122Qu-jGzL.jpg"
     },
     {
       "id": 6,
@@ -593,7 +602,8 @@
       "productName": "Grandma's Boysenberry Spread",
       "quantityPerUnit": "12 - 8 oz jars",
       "unitPrice": 25,
-      "unitsInStock": 120
+      "unitsInStock": 120,
+      "img": "https://www.elki.com/ecom_img/original-47-67-22e_2016w.jpg"
     },
     {
       "id": 7,
@@ -601,7 +611,8 @@
       "productName": "Uncle Bob's Organic Dried Pears",
       "quantityPerUnit": "12 - 1 lb pkgs.",
       "unitPrice": 30,
-      "unitsInStock": 15
+      "unitsInStock": 15,
+      "img": "https://www.thehayexperts.co.uk/media/catalog/product/cache/d934019930361d006e9fb537ac4472b3/p/e/pear_1000.jpg"
     },
     {
       "id": 8,
@@ -609,7 +620,8 @@
       "productName": "Northwoods Cranberry Sauce",
       "quantityPerUnit": "12 - 12 oz jars",
       "unitPrice": 40,
-      "unitsInStock": 100
+      "unitsInStock": 100,
+      "img": "https://assets.woolworths.com.au/images/2010/25528.jpg?impolicy=wowcdxwbjbx&w=900&h=900"
     },
     {
       "id": 9,
@@ -617,7 +629,8 @@
       "productName": "Mishi Kobe Niku",
       "quantityPerUnit": "18 - 500 g pkgs.",
       "unitPrice": 97,
-      "unitsInStock": 29
+      "unitsInStock": 29,
+      "img": "https://www.idelish.com/wp-content/uploads/DSC_5529_filtered-L.jpg"
     },
     {
       "id": 10,
@@ -625,7 +638,8 @@
       "productName": "Ikura",
       "quantityPerUnit": "12 - 200 ml jars",
       "unitPrice": 31,
-      "unitsInStock": 31
+      "unitsInStock": 31,
+      "img": "https://oystersandcaviar.ca/cdn/shop/files/ikura-paleo-2_lDZlA5Liu70_1_aQyNC-IftEg.jpg"
     },
     {
       "id": 11,
@@ -633,7 +647,8 @@
       "productName": "Queso Cabrales",
       "quantityPerUnit": "1 kg pkg.",
       "unitPrice": 21,
-      "unitsInStock": 22
+      "unitsInStock": 22,
+      "img": "https://adrinhoa.es/wp-content/uploads/2023/03/CN-18.jpg"
     },
     {
       "id": 12,
@@ -641,15 +656,17 @@
       "productName": "Queso Manchego La Pastora",
       "quantityPerUnit": "10 - 500 g pkgs.",
       "unitPrice": 38,
-      "unitsInStock": 86
+      "unitsInStock": 86,
+      "img": "https://turismo.grazalema.es/images/images/FOTOS/GASTRONOMIA/2019/19-04-22QUESO/Sin-ttulo-3.jpg"
     },
     {
       "id": 13,
       "categoryId": 8,
       "productName": "Konbu",
-      "quantityPerUnit": "2 kg box",
+      "quantityPerUnit": "1 kg box",
       "unitPrice": 6,
-      "unitsInStock": 24
+      "unitsInStock": 24,
+      "img": "https://mottomart.com.au/cdn/shop/products/38490_1_grande.jpg"
     },
     {
       "id": 14,
@@ -657,7 +674,8 @@
       "productName": "Tofu",
       "quantityPerUnit": "40 - 100 g pkgs.",
       "unitPrice": 23.25,
-      "unitsInStock": 35
+      "unitsInStock": 35,
+      "img": "https://bestiesveganparadise.com/cdn/shop/products/IMG_1548_2000x.jpg"
     },
     {
       "id": 15,
@@ -665,7 +683,8 @@
       "productName": "Genen Shouyu",
       "quantityPerUnit": "24 - 250 ml bottles",
       "unitPrice": 15.5,
-      "unitsInStock": 39
+      "unitsInStock": 39,
+      "img": "https://ozawa.ca/wp-content/uploads/2019/08/4000-4.jpg"
     },
     {
       "id": 16,
@@ -673,7 +692,8 @@
       "productName": "Pavlova",
       "quantityPerUnit": "32 - 500 g boxes",
       "unitPrice": 17.45,
-      "unitsInStock": 29
+      "unitsInStock": 29,
+      "img": "https://www.theflavorbender.com/wp-content/uploads/2019/08/Classic-Pavlova-Social-Media-2398.jpg"
     },
     {
       "id": 17,
@@ -681,7 +701,8 @@
       "productName": "Guiza",
       "quantityPerUnit": "20 - 1 kg tins",
       "unitPrice": 39,
-      "unitsInStock": 0
+      "unitsInStock": 0,
+      "img": "https://img.freepik.com/premium-photo/pile-meat-with-sprig-rosemary-it-with-white-background_435599-364.jpg"
     },
     {
       "id": 18,
@@ -689,7 +710,8 @@
       "productName": "Carnarvon Tigers",
       "quantityPerUnit": "16 kg pkg.",
       "unitPrice": 62.5,
-      "unitsInStock": 42
+      "unitsInStock": 42,
+      "img": "https://freshcatch.ae/wp-content/uploads/2020/01/Tigers-prawns-u10.png"
     },
     {
       "id": 19,
@@ -697,7 +719,8 @@
       "productName": "Teatime Chocolate Biscuits",
       "quantityPerUnit": "10 boxes x 12 pieces",
       "unitPrice": 9.2,
-      "unitsInStock": 25
+      "unitsInStock": 25,
+      "img": "https://westindida.yellomgc.com/wp-content/uploads/2022/06/Tea-Time-Chocolate-40g-10-pack-WIBISCO-Web-Images-34.png"
     },
     {
       "id": 20,
@@ -705,7 +728,8 @@
       "productName": "Sir Rodney's Marmalade",
       "quantityPerUnit": "30 gift boxes",
       "unitPrice": 81,
-      "unitsInStock": 40
+      "unitsInStock": 40,
+      "img": "https://cdn.shopify.com/s/files/1/0705/8577/8492/products/ThursdayCottageVintageOrangeMarmalade_1024x1024.jpg"
     },
     {
       "id": 21,
@@ -713,7 +737,8 @@
       "productName": "Sir Rodney's Scones",
       "quantityPerUnit": "24 pkgs. x 4 pieces",
       "unitPrice": 10,
-      "unitsInStock": 3
+      "unitsInStock": 3,
+      "img": "https://olivesnthyme.com/wp-content/uploads/2023/04/Lemon-Blueberry-Scones-21.jpg"
     },
     {
       "id": 22,
@@ -721,7 +746,8 @@
       "productName": "Gustaf's Knäckebröd",
       "quantityPerUnit": "24 - 500 g pkgs.",
       "unitPrice": 21,
-      "unitsInStock": 104
+      "unitsInStock": 104,
+      "img": "https://www.dittsvenskaskafferi.se/media/catalog/product/image/467047ac/wasa-husman-260g.jpg"
     },
     {
       "id": 23,
@@ -729,7 +755,8 @@
       "productName": "Tunnbröd",
       "quantityPerUnit": "12 - 250 g pkgs.",
       "unitPrice": 9,
-      "unitsInStock": 61
+      "unitsInStock": 61,
+      "img": "https://d1ax460061ulao.cloudfront.net/1000x1000/e/0/e04881e1351e3c6f286d1145312ad2da.jpg"
     },
     {
       "id": 24,
@@ -737,7 +764,8 @@
       "productName": "Guaraná Fantástica",
       "quantityPerUnit": "12 - 355 ml cans",
       "unitPrice": 4.5,
-      "unitsInStock": 20
+      "unitsInStock": 20,
+      "img": "https://unimarket.ca/cdn/shop/products/GuaranaCan6pack.jpg"
     },
     {
       "id": 25,
@@ -745,7 +773,8 @@
       "productName": "NuNuCa Nuß-Nougat-Creme",
       "quantityPerUnit": "20 - 450 g glasses",
       "unitPrice": 14,
-      "unitsInStock": 76
+      "unitsInStock": 76,
+      "img": "https://images.aldi-now.ch/2000x2000px/8847026257921_814942-CH-de_ch-FR01_2000x2000.jpg"
     },
     {
       "id": 26,
@@ -753,7 +782,8 @@
       "productName": "Gumbär Gummibärchen",
       "quantityPerUnit": "100 - 250 g bags",
       "unitPrice": 31.23,
-      "unitsInStock": 15
+      "unitsInStock": 15,
+      "img": "https://m.media-amazon.com/images/I/918A+aT1DJL._AC_UF894,1000_QL80_.jpg"
     },
     {
       "id": 27,
@@ -761,7 +791,8 @@
       "productName": "Schoggi Schokolade",
       "quantityPerUnit": "100 - 100 g pieces",
       "unitPrice": 43.9,
-      "unitsInStock": 49
+      "unitsInStock": 49,
+      "img": "https://www.schoggimeier.com.hk/wp-content/uploads/2022/09/SM506-600x600.jpg"
     },
     {
       "id": 28,
@@ -769,7 +800,8 @@
       "productName": "Rössle Sauerkraut",
       "quantityPerUnit": "25 - 825 g cans",
       "unitPrice": 45.6,
-      "unitsInStock": 26
+      "unitsInStock": 26,
+      "img": "https://images-fe.ssl-images-amazon.com/images/I/515w-9n6JIL._AC_UL600_SR600,600_.jpg"
     },
     {
       "id": 29,
@@ -777,7 +809,8 @@
       "productName": "Thüringer Rostbratwurst",
       "quantityPerUnit": "50 bags x 30 sausgs.",
       "unitPrice": 123.79,
-      "unitsInStock": 0
+      "unitsInStock": 0,
+      "img": "https://die-thueringer.de/wp-content/uploads/2020/04/FrontOfPack-Bratwurst-Roh-10er-HR_AK_800px.jpg"
     },
     {
       "id": 30,
@@ -785,7 +818,8 @@
       "productName": "Nord-Ost Matjeshering",
       "quantityPerUnit": "10 - 200 g glasses",
       "unitPrice": 25.89,
-      "unitsInStock": 10
+      "unitsInStock": 10,
+      "img": "https://cdn.prod.www.spiegel.de/images/a0edd6dd-0001-0004-0000-000000066325_w1200_r1.33_fpx33.35_fpy50.jpg"
     },
     {
       "id": 31,
