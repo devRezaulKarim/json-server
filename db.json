@@ -563,12 +563,12 @@
       "unitsInStock": 17
     },
     {
-      "id": 3
+      "id": 3,
       "categoryId": 4,
       "productName": "Laptop",
       "unitPrice": "1000",
       "quantityPerUnit": "1",
-      "unitsInStock": "2",
+      "unitsInStock": "2"
 
     },
     {
