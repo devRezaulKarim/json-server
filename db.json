@@ -1241,7 +1241,6 @@
     }
   ],
  "icons": [
-    { "icon": "fa-solid fa-0", "style": "duotone", "type": ["sharp"] },
     {
       "icon": "fa-solid fa-stopwatch-20",
       "style": "solid",
@@ -3400,6 +3399,7 @@
       "style": "solid",
       "type": ["classic",  "free"]
     },
+    { "icon": "fa-solid fa-0", "style": "duotone", "type": ["sharp"] },
     { "icon": "fa-brands fa-mizuni", "style": "ragular", "type": ["sharp"] },
     {
       "icon": "fa-brands fa-raspberry-pi",
