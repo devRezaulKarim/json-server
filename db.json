@@ -5468,11 +5468,6 @@
     { "icon": "fa-solid fa-spider", "style": "solid", "type": ["classic",  "free"] },
     { "icon": "fa-solid fa-folder", "style": "solid", "type": ["classic",  "free"] },
     { "icon": "fa-regular fa-folder", "style": "light", "type": ["classic",  "free"] },
-    {
-      "icon": "fa-solid fa-transgender",
-      "style": "solid",
-      "type": ["classic",  "free"]
-    },
     { "icon": "fa-solid fa-blender", "style": "solid", "type": ["classic",  "free"] },
     {
       "icon": "fa-solid fa-users-viewfinder",
@@ -65092,15 +65087,7 @@
       "license": "Free",
       "Style": "Regular"
     },
-    {
-      "icon": "fa-regular fa-transgender",
-      "category": [
-        "Genders"
-      ],
-      "family": "Classic",
-      "license": "Free",
-      "Style": "Regular"
-    },
+    
     {
       "icon": "fa-regular fa-transporter",
       "category": [
@@ -95230,15 +95217,6 @@
       "icon": "fa-light fa-transformer-bolt",
       "category": [
         "Energy"
-      ],
-      "family": "Classic",
-      "license": "Free",
-      "Style": "Light"
-    },
-    {
-      "icon": "fa-light fa-transgender",
-      "category": [
-        "Genders"
       ],
       "family": "Classic",
       "license": "Free",
@@ -125379,15 +125357,6 @@
   "Style": "Thin"
 },
 {
-  "icon": "fa-thin fa-transgender",
-  "category": [
-    "Genders"
-  ],
-  "family": "Classic",
-  "license": "Free",
-  "Style": "Thin"
-},
-{
   "icon": "fa-thin fa-transporter",
   "category": [
     "Transportation"
@@ -155516,15 +155485,6 @@
   "icon": "fa-duotone fa-transformer-bolt",
   "category": [
     "Energy"
-  ],
-  "family": "Classic",
-  "license": "Pro",
-  "Style": "Duotone"
-},
-{
-  "icon": "fa-duotone fa-transgender",
-  "category": [
-    "Genders"
   ],
   "family": "Classic",
   "license": "Pro",
