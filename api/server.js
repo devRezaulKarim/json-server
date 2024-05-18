@@ -27,9 +27,6 @@ server.use(jsonServer.rewriter({
     //to access by any property (applicable for only clothings)
     '/clothings/:key/:value': '/clothings?:key=:value',
 
-
-'/clothings/:key/:value/:key/:value': '/clothings?:key=:value:key=:value',
-
 }))
 server.use(router)
 server.listen(3000, () => {
