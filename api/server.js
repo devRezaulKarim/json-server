@@ -25,7 +25,15 @@ server.use(jsonServer.rewriter({
     '/api/*': '/$1',
     '/blog/:resource/:id/show': '/:resource/:id',
     //to access by any property (applicable for only clothings)
-    '/clothings/:key/:value': '/clothings?:key=:value'
+    '/clothings/:key/:value': '/clothings?:key=:value',
+
+    
+    '/clothings/categories/:categories': (req, res, next) => {
+        const categories = req.params.categories.split(',');
+        const query = categories.map(category => `category=${category}`).join('&');
+        req.url = `/posts?${query}`;
+        next();
+    }
 }))
 server.use(router)
 server.listen(3000, () => {
