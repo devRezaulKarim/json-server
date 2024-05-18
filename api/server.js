@@ -24,8 +24,6 @@ server.use(middlewares)
 server.use(jsonServer.rewriter({
     '/api/*': '/$1',
     '/blog/:resource/:id/show': '/:resource/:id',
-    //to access by any property (applicable for only clothings)
-    '/clothings/:key/:value': '/clothings?:key=:value',
 
 }))
 server.use(router)
